@@ -1,0 +1,195 @@
+body{
+	margin: 0 0 !important;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	background-image: url('praxis-kitchen-orig.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	/* min-height: 700px; */
+	background-position: center;
+	background-position-y: 75;
+}
+
+a,a:visited{
+  color: inherit;
+  text-decoration: initial;
+}
+#main-background{
+	height: 100vh;
+}
+#front-logo{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#front-banner-content{
+	/* padding-top: 100px; */
+	text-align: center;
+}
+
+ul#front-social-icons{display: inline-block;width: 50%;margin-left: 0;padding-left: 0;}
+li.front-social-icon{
+	display: inline-block;
+	/* margin-right: 10%; */
+	text-align: center;
+	width: calc(100% / 4);
+	/* font-size: 32px; */
+	/* font-family: tahoma; */
+
+}
+li.front-social-icon .fa-stack{
+    border-radius: 45px;
+    height: 45px;
+    display: inline-block;
+    width: 45px;
+    /* color: white; */
+    line-height: 45px;
+    vertical-align: middle;
+    font-weight: bold;
+}
+#footer{width: 100%;background-color: #8C8C8C;height: 200px;position: relative;}
+
+#facebook-icon{/* background-color: #0d49b1; */}
+#twitter-icon{
+    background-color: #4099FF;
+}
+#instagram-icon{
+    background-color: #125688;
+}
+#tumblr-icon{
+	background-color: #32506d;
+}
+#wordpress-icon{
+    background-color: #1f1f1f;
+}
+
+#topbar{width: 100%;height: 75px;background-color: #4C4D4F;display: table;border-bottom: 2px solid dimgray;color: white;}
+
+.topbar-left{width: calc(50% - 50px);height: 100%;float: left;padding-top: 25px;padding-bottom: 25px;padding-left: 50px;}
+.topbar-right{
+	width: calc(50% - 50px);
+	float: left;
+	line-height: 75px;
+	text-align: right;
+	padding-right: 50px;
+
+}
+@media screen and (max-width: 720px) {
+  .topbar-right{
+    display:none;
+  }
+  .topbar-left{
+    width: 100%;
+    text-align: center;
+    margin:0;
+    padding-left:0;
+  }
+  ul#front-social-icons{
+    width: 100%;
+  }
+  .social-icon-label{
+    display:none;
+  }
+  #front-logo{
+    width: 80%;
+  }
+}
+#topbar-search{font-size: 18px;height: 100%;border-radius: 10px;padding-left: 1em;border: 1px solid black;color: rgba(0,0,0,.75);-webkit-user-select: none;display: none;}
+.facebook > .fa-stack{
+	color: #0d49b1;
+}
+.twitter > .fa-stack{
+	color: #4099FF;
+}
+.instagram > .fa-stack{
+	color: #125688;
+}
+.pinterest	 > .fa-stack{
+	color: #cb2027;
+}
+.wordpress > .fa-stack{
+	color: rgba(0,0,0,.75);
+}
+.fa-inverse{
+	transition: color 0.3s ease;
+}
+.fa-inverse:hover{
+	color: rgba(0,0,0,.75);
+	cursor: pointer;
+}
+h2{
+	color: rgba(0,0,0,.70);
+}
+div#front-tagline {margin-bottom: 50px;color: rgba(0,0,0,.75);}
+#front-learn-more-button{
+	border: 2px solid rgba(0,0,0,0.75);
+	width:auto;
+	display:inline-block;
+	padding: 1.2em;
+	color: rgba(0,0,0,.75);
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background-color 0.5s ease;
+	-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+	font-weight: bold;
+}
+
+#front-learn-more-button:hover{
+	background-color: rgba(255, 255, 255, 0.57);
+}
+#copyright-banner{
+	position:fixed;
+	bottom: 10px;
+	right: 10px;
+	color: rgba(0,0,0,.5);
+	z-index: 9999;
+}
+#top-nav{
+	display: inline;
+	margin: 0;
+	padding: 0;
+}
+#top-nav > li{
+	display: inline;
+	margin-left:20px
+}
+#top-nav > li:first-child{
+	margin-left:0px
+}
+.social-icon-label{
+	color: rgba(0,0,0,.50);
+}
+#front-cta-container{
+	margin: 0;
+	margin-bottom: 50px;
+}
+.info-panel{
+  width: 80%;
+  background-color: rgba(255,255,255,.8);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+  margin-top:5%;
+	-webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+  border: 1px solid black;
+}
+h1{
+  margin-top:0;
+}
+.back-button{
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-bottom: 2em;
+}
+.back-button:hover{
+  text-decoration: underline;
+}
+p{
+  line-height: 1.5em;
+}
